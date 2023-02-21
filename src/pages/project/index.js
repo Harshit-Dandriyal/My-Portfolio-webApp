@@ -53,11 +53,11 @@ export const projects = [
 
     gitHubUrl: {
       icon: <GrGithub />,
-      url: 'https://github.com/Almarex-Web-Dev/OpenAI-project',
+      url: 'https://github.com/Harshit-Dandriyal/RestaurantClient',
     },
     website: {
       icon: <TbWorld />,
-      url: 'https://gpt3-openai-project.netlify.app/',
+      url: 'https://amazona.onrender.com/',
     },
   },
   {
