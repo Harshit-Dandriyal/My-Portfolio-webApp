@@ -1,4 +1,8 @@
 export { default as pokemonImage } from '../assets/images/worlde.png'
+export { default as resturauntImage } from '../assets/images/resturauntImage.png'
+export { default as conferenceWebsite } from '../assets/images/conference_website.png'
+export { default as pavoWebsite } from '../assets/images/pavo_website.png'
+export { default as dmWebsite } from '../assets/images/dm_website.png'
 export { default as bigCommerce } from '../assets/images/amazon.png'
 export { default as codePairImage } from '../assets/images/codePairImage.png'
 export { default as twitterClone } from '../assets/images/twiitterClone.png'
