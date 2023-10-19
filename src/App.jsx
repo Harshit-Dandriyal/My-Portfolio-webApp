@@ -14,12 +14,13 @@ import {
 
 // components
 import { Sidebar, ThemeTemplate } from './components'
-
+import { MouseEffect } from './MouseEffect.js';
 import './utils/templateColors.scss'
 
 const App = () => {
   return (
     <BrowserRouter>
+     <MouseEffect />
       <Sidebar />
       <ThemeTemplate />
       <Routes>
@@ -27,7 +28,6 @@ const App = () => {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<BlogPage />} />
-        <Route path="/project" element={<ProjectPage />} />
         <Route path="/project" element={<ProjectPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
